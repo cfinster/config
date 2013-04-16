@@ -1,0 +1,12 @@
+{
+    "auto_upgrade_ignore":
+    [
+        "CFeather",
+        "GoFeather",
+        "Sundried Color Scheme"
+    ],
+    "installed_packages":
+    [
+        "Package Control"
+    ]
+}

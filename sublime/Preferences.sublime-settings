@@ -1,0 +1,39 @@
+{
+    // Appearance
+
+    "font_face": "Menlo",
+    "font_size": 14,
+    "word_wrap": false,
+    "draw_indent_guides": false,
+    "show_tab_close_buttons": false,
+    "highlight_modified_tabs": true,
+    "overlay_scroll_bars": "disabled",
+    "color_scheme": "Packages/Sundried Color Scheme/Sundried.tmTheme",
+    // "rulers":
+    // [
+    //     80
+    // ],
+
+    // Whitespace
+
+    "translate_tabs_to_spaces": true,
+    "tab_size": 4,
+    "detect_indentation": false,
+    "default_line_ending": "unix",
+    "ensure_newline_at_eof_on_save": true,
+    "trim_trailing_white_space_on_save": true,
+
+    // General
+
+    "hot_exit": false,
+    "remember_open_files": false,
+    "find_selected_text": true,
+    "auto_complete_commit_on_tab": true,
+    "dictionary": "Packages/Language - English/en_GB.dic",
+    "ignored_packages":
+    [
+        "C++",
+        "Go",
+        "Vintage"
+    ]
+}

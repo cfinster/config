@@ -1,0 +1,11 @@
+[
+    { "keys": ["ctrl+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false}},
+    { "keys": ["ctrl+shift+up"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": false, "extend": true}},
+    { "keys": ["ctrl+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true}},
+    { "keys": ["ctrl+shift+down"], "command": "move", "args": {"by": "stops", "empty_line": true, "forward": true, "extend": true}},
+
+    { "keys": ["ctrl+left"], "command": "prev_result" },
+    { "keys": ["ctrl+right"], "command": "next_result" },
+
+    { "keys": ["ctrl+/"], "command": "expand_selection", "args": {"to": "brackets"} }
+]

@@ -1,0 +1,14 @@
+--suffix=none           # Overwrite files.
+--formatted             # Report only changed files.
+--lineend=linux         # Use LF character.
+--mode=c                # Ensure alternate language modes aren't triggered.
+
+--indent=force-tab=4    # Ident using tabs. Convert four spaces to a tab.
+--convert-tabs          # Indentation aside, use spaces for alignment.
+
+--style=1tbs            # Use the One True Brace Style.
+
+--pad-oper              # 0+1           ->      0 + 1
+--pad-header            # if(a)         ->      if (a)
+--unpad-paren           # x ( y , z )   ->      x(y, z)
+--align-pointer=name    # char* p       ->      char *p
